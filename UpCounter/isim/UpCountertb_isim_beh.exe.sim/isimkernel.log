@@ -1,0 +1,29 @@
+Command line:
+   UpCountertb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  39801
+
+Sun Sep 24 10:09:05 2023
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 183.636 Meg
+
+ Total Signals          : 16
+ Total Nets             : 19
+ Total Signal Drivers   : 8
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 12
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 105
+Total Line Count : 46
+
+ Total Simulation Time: 0.02 sec
+
+ Current Memory Usage: 259.138 Meg
+
+Sun Sep 24 10:09:33 2023
+

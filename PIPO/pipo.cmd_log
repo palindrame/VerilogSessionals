@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/indranilpal/IIEST/HPC/Projects/PIPO/pipo.xst" -ofn "/home/indranilpal/IIEST/HPC/Projects/PIPO/pipo.syr" 

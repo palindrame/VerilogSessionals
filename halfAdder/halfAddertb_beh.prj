@@ -1,0 +1,3 @@
+verilog work "halfAdder.v"
+verilog work "halfAddertb.v"
+verilog work "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

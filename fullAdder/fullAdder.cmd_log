@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/indranilpal/IIEST/HPC/Projects/fullAdder/fullAdder.xst" -ofn "/home/indranilpal/IIEST/HPC/Projects/fullAdder/fullAdder.syr" 
+xst -intstyle ise -ifn "/home/indranilpal/IIEST/HPC/Projects/fullAdder/fullAdder.xst" -ofn "/home/indranilpal/IIEST/HPC/Projects/fullAdder/fullAdder.syr" 

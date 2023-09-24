@@ -1,0 +1,29 @@
+Command line:
+   pipotb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  40355
+
+Sun Sep 24 09:29:14 2023
+
+
+ Elaboration Time: 0.01 sec
+
+ Current Memory Usage: 183.628 Meg
+
+ Total Signals          : 16
+ Total Nets             : 22
+ Total Signal Drivers   : 8
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 12
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 111
+Total Line Count : 26
+
+ Total Simulation Time: 0.02 sec
+
+ Current Memory Usage: 259.129 Meg
+
+Sun Sep 24 09:31:13 2023
+

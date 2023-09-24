@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "/home/indranilpal/IIEST/HPC/Projects/halfAdder/halfAdder.xst" -ofn "/home/indranilpal/IIEST/HPC/Projects/halfAdder/halfAdder.syr" 
+xst -intstyle ise -ifn "/home/indranilpal/IIEST/HPC/Projects/halfAdder/halfAdder.xst" -ofn "/home/indranilpal/IIEST/HPC/Projects/halfAdder/halfAdder.syr" 
+xst -intstyle ise -ifn "/home/indranilpal/IIEST/HPC/Projects/halfAdder/halfAdder.xst" -ofn "/home/indranilpal/IIEST/HPC/Projects/halfAdder/halfAdder.syr" 
+xst -intstyle ise -ifn "/home/indranilpal/IIEST/HPC/Projects/halfAdder/halfAdder.xst" -ofn "/home/indranilpal/IIEST/HPC/Projects/halfAdder/halfAdder.syr" 
