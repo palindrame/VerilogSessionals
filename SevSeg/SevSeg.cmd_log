@@ -1,0 +1,15 @@
+xst -intstyle ise -ifn "/home/indranilpal/IIEST/HPC/Projects/SevSeg/SevSeg.xst" -ofn "/home/indranilpal/IIEST/HPC/Projects/SevSeg/SevSeg.syr" 
+xst -intstyle ise -ifn "/home/indranilpal/IIEST/HPC/Projects/SevSeg/SevSeg.xst" -ofn "/home/indranilpal/IIEST/HPC/Projects/SevSeg/SevSeg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx45-csg324-2 SevSeg.ngc SevSeg.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SevSeg_map.ncd SevSeg.ngd SevSeg.pcf 
+par -w -intstyle ise -ol high -mt off SevSeg_map.ncd SevSeg.ncd SevSeg.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml SevSeg.twx SevSeg.ncd -o SevSeg.twr SevSeg.pcf 
+xst -intstyle ise -ifn "/home/indranilpal/IIEST/HPC/Projects/SevSeg/SevSeg.xst" -ofn "/home/indranilpal/IIEST/HPC/Projects/SevSeg/SevSeg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SevSeg.ucf -p xc6slx45-csg324-2 SevSeg.ngc SevSeg.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SevSeg_map.ncd SevSeg.ngd SevSeg.pcf 
+par -w -intstyle ise -ol high -mt off SevSeg_map.ncd SevSeg.ncd SevSeg.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml SevSeg.twx SevSeg.ncd -o SevSeg.twr SevSeg.pcf -ucf SevSeg.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc SevSeg.ucf -p xc6slx45-csg324-2 SevSeg.ngc SevSeg.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SevSeg_map.ncd SevSeg.ngd SevSeg.pcf 
+par -w -intstyle ise -ol high -mt off SevSeg_map.ncd SevSeg.ncd SevSeg.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml SevSeg.twx SevSeg.ncd -o SevSeg.twr SevSeg.pcf -ucf SevSeg.ucf 
